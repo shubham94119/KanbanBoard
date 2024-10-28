@@ -1,0 +1,35 @@
+.kanban-board {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.columns {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.ticket {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 8px;
+}
